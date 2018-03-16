@@ -1,2 +1,2 @@
 # ITW
-Tvorba webových stránek 2018
+Tvorba webových stránek - VUT FIT 2018
