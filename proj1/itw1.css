@@ -39,7 +39,7 @@ html, body {
     position: relative;
     width: 960px;
     margin: 0 auto;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text';
     font-size: 13pt;
     letter-spacing: 1pt;
     font-weight: bold;
@@ -99,7 +99,7 @@ html, body {
   }
   
   #page-title p {
-    font-family: Crimson Text;
+    font-family: 'Crimson Text';
     font-size: 12pt;
     font-weight: bold;
   }
@@ -138,7 +138,7 @@ html, body {
   }
   
   .main-text p {
-    font-family: Crimson Text;
+    font-family: 'Crimson Text';
     font-size: 12pt;
     padding: 0 30px;
     margin-top: 25px;
@@ -154,7 +154,7 @@ html, body {
     background: white;
     border: 2px solid #eeeeee;
     padding: 25px 14px 16px 14px;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text';
     font-size: 12pt;
     margin-top: 20px;
   }
@@ -180,7 +180,7 @@ html, body {
   }
   
   .form input {
-    font-family: Crimson Text;
+    font-family: 'Crimson Text';
     font-size: 12pt;
     border: 1px solid #dddddd;
     color: #888888;
@@ -198,7 +198,7 @@ html, body {
   }
   
   .form textarea {
-    font-family: Crimson Text;
+    font-family: 'Crimson Text';
     font-size: 12pt;
     border: 1px solid #dddddd;
     color: #888888;
@@ -210,7 +210,7 @@ html, body {
   
   .form .submit {
     width: 16%;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text';
     font-size: 12pt;  
     border: none;
     padding: 10px 0px;
@@ -257,7 +257,7 @@ html, body {
   
   .newsletter input {
     width: 78%;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text';
     font-size: 12pt;
     border: 1px solid #dddddd;
     padding: 9px 6px;
@@ -267,7 +267,7 @@ html, body {
   
   .newsletter .submit {
     width: 20%;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text';
     font-size: 12pt;  
     border: none;
     padding: 10px 0px;
@@ -281,6 +281,8 @@ html, body {
     background: #5D4037;
   }
   
+
+
   /* footer */
   #footer { 
     min-width: 960px;
@@ -291,7 +293,7 @@ html, body {
     width: 960px;
     min-width: 960px;
     margin: 0 auto;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text';
     font-size: 12pt;
     color: white;
   }
@@ -391,7 +393,7 @@ html, body {
   }
   
   #copyright p {
-    font-family: Crimson Text;
+    font-family: 'Crimson Text';
     font-size: 12pt;
     color: white;
     padding: 20px 0;
