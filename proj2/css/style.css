@@ -1,0 +1,310 @@
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	color: #222222;
+	background-color: #fafafa;
+	min-width: 750px;
+	font-size: 17px;
+}
+
+
+/* header */
+header {
+	position: fixed;
+	width: 100%;
+	min-width: 750px;
+	color: #222222;
+	background-color: #fafafa;
+	border-bottom: 4px ridge #e56a5d;
+	z-index: 1;
+}
+
+#anchor-logo {
+	display: inline-block;
+	margin-left: 8%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#header_logo {
+	width: 100px;
+}
+
+header nav {
+	float: right;
+	font-size: 18px;
+	margin-right: 8%;
+	margin-top: 20px;
+}
+
+header a {
+	text-decoration: none;
+	color: #222222;
+}
+
+header nav, header nav ul {
+	display: inline-block;
+}
+
+header li {
+	display: inline-block;
+	position: relative;
+}
+
+header li a {
+	padding: 25px 20px;
+}
+
+header li a:hover {
+	color: #333333;
+	background-color: #dddddd;
+	border-radius: 10px;
+}
+
+.dropdown-content {
+	display: none;
+	margin-top: 15px;
+    position: absolute;
+    min-width: 130px;
+	background-color: #fafafa;
+	border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+	padding: 10px;
+	display: block;
+}
+
+.dropdown:hover .dropdown-content a:hover {
+	color: #333333;
+	background-color: #dddddd;
+}
+
+/* image at home section */
+#image-header
+{
+	position: relative;
+	width: 100%;
+	margin: 0px auto;
+	margin-bottom: 50px;
+	padding-top: 30px;
+}
+
+#home-image {
+	width: 100%;
+}
+
+#home-logo {
+	width: 15%;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	padding-right: 50px;
+}
+
+#image-header h2 {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 5px;
+	font-size: 3vw;
+	color: #ffffff;
+	text-shadow: 2px 2px 2px #ffffff;
+	letter-spacing: 4px;
+}
+
+/* Home page */
+.home-main {
+	text-align: center;
+	margin: 40px 0px;
+}
+
+.home-main .space {
+	margin: 0px 3% 0px 3%;
+	display: inline-block;
+}
+
+.home-block {
+	display: inline-block;
+	width: 45%;
+}
+
+.home-block img {
+	border: 5px solid #e56a5d;
+	border-radius: 20px;
+	box-shadow: 1px 1px 10px #2e2e2e;
+	margin: 0px auto;
+	width: 100%;
+	max-width: 400px;
+}
+
+.home-block h2 {
+	background-color: #e56a5d;
+	color: white;
+	margin: 0px auto;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+
+.home-block a {
+	text-decoration: none;
+}
+
+.home-block p {
+	padding: 10px;
+	text-align: justify;
+	padding: 5px 20px 5px 20px;
+}
+
+
+/* sections in other documents */
+.button {
+	background-color: #e56a5d;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+}
+
+.main {
+	max-width: 1200px;
+	margin: 0px auto;
+	background-color: #fafafa;
+	padding: 20px;
+	height: 100%;
+}
+
+.main ul li a {
+	text-decoration: none;
+	color: #222222;
+}
+
+.main-top {
+	padding-top: 100px;
+}
+
+.main-top h2, h3, h4 {
+	text-align: center;
+}
+
+.general-section .cols3
+{
+	float: left;
+    width: 31%;
+	text-align: center;
+	padding: 1%;
+}
+
+.general-section .cols2
+{
+	float: left;
+    width: 48%;
+	text-align: center;
+	padding: 1%;
+}
+
+.general-section img {
+	width: 80%;
+	max-width: 400px;
+}
+
+.general-section p {
+	text-align: justify;
+}
+
+.general-section:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+.item-image img {
+	border-radius: 20px;
+}
+
+/* specific styles for contant and global map */
+.contact {
+	text-align: center;
+}
+
+#contact-email {
+	color: #e56a5d;
+}
+
+#contact-logo {
+	width: 250px;
+}
+
+#map a {
+	text-decoration: underline;
+}
+
+
+/* Box with news and actions */
+#news-box {
+	margin-top: 60px;
+	border: 2px solid #e56a5d;
+	border-radius: 10px;
+}
+
+#news-box h2
+{
+	cursor: pointer;
+	color: #ffffff;
+	background-color: #e56a5d;
+	border-radius: 5px;
+	margin: 0px;
+	padding: 10px;
+}
+
+#news-box div 
+{
+	padding: 10px;
+}
+
+
+/** Footer **/
+footer {
+	background-color: #2a2a2a;
+	width: 100%;
+	color: white;
+	margin: 0px auto;
+	font-size: 15px;
+}
+
+footer p {
+	margin: 18px 0px;
+}
+
+footer a {
+	color: white;
+}
+
+footer .footer-container {
+    margin: 0 20%;
+}
+
+footer .footer-container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer .footer-block {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+
+/* styles for printer */
+@media print {
+    header, #image-header, #news-box, .button, footer {
+    	display: none;
+	}
+}
